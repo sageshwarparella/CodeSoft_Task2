@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ 
+ .background{
+   min-height: 100vh;
+   position:relative;
+ }  
+ .background::before{
+   content: '';
+   background-image: url("holiday2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: absolute;
+   left:0;
+   right:0;
+   top:0;
+   bottom:0;
+   opacity:0.6;
+ }
+ .navbar{
+   height:90px;
+   width:100%;
+   /* margin-top; */
+   border-bottom:3px solid #1B263B ;
+   background-color: transparent;
+   color:#0D1F2D;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .logo{
+   font-family: "Oswald", sans-serif;
+   width:60%;
+   margin-left: 0px;
+   font-weight: 900;
+   
+ }
+ .nav-contents{
+   width:35%;
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ .content{
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 600;
+    border-left: 2px solid #0D1F2D;
+    padding-left: 8px;
+ }
+ .content:hover{
+       text-decoration:2px underline #0D1F2D ;
+ }
+ .content button{
+   height:25px;
+   border-radius: 6px;
+   background-color: #1B263B;
+   color:#e0e0e0;
+   font-weight: 600;
+ }
+ .tagline{
+   font-family: "Abril Fatface", serif;
+   margin-left:100px;
+   margin-top: 100px;
+ }
+ .phrase{
+   width:40%;
+   height:60px;
+   margin-left:100px ;
+   margin-top:30px ;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
+ }
+ .join{
+   display: flex;
+   align-items: center;
+ }
+ .join button{
+   font-size: 15px;
+   height:30px;
+   width:90px;
+   border-radius: 6px;
+   background-color: #1B263B;
+   color:#e0e0e0;
+   font-weight: 600;
+   margin-left: 100px;
+   margin-top: 30px;
+ }
+ .footer{
+   height:60px;
+   width:100%;
+   margin-top: 230px;
+   /* border-top:2px solid #1B263B ; */
+   background-color: transparent;
+   color:#0D1F2D;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 17px;
+ }
+ .follow{
+   font-family: "Montserrat", sans-serif;
+   width:8%;
+   
+   font-weight: 500;
+ }
+ .logos{
+   width:20%;
+   display:flex;
+   align-items: center;
+   justify-content: space-evenly;
+ }
